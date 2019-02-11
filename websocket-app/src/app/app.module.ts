@@ -5,6 +5,7 @@ import { SubjectObservableComponent } from './subject-observable/subject-observa
 import { RouterModule, Routes} from '@angular/router';
 import { WebsocketCockpitComponent } from './websocket-cockpit/websocket-cockpit.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TrackByComponent } from './track-by/track-by.component';
 
 const appRoutes: Routes = [
   {path: 'subject-observable', component: SubjectObservableComponent},
@@ -16,7 +17,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     SubjectObservableComponent,
-    WebsocketCockpitComponent
+    WebsocketCockpitComponent,
+    TrackByComponent
   ],
   imports: [
     BrowserModule,

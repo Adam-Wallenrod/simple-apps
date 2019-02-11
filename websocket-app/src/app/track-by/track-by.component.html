@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <ul>
+    <li *ngFor="let header of collection; trackBy: trackByFn">
+      {{header.name}} id: {{header.id}}
+    </li>
+  </ul>
+
+  <button (click)="getItems()">Get data from server</button>
+</div>
